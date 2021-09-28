@@ -555,6 +555,9 @@ content: '';
 }
 }
 @media (max-width: 768px) {
+	.content-top {
+    padding: 0 15px 0 52px;
+}
 	.header{
 		padding-left:20px;
 	}
