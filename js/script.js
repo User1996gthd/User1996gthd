@@ -13,13 +13,13 @@ responsive: [
 
 $('.burger-menu').click(function(){
 	$('.burger-menu').toggleClass('active');
-$('.link').toggleClass('mobilemenu');
+$('.navmobile .link').toggleClass('mobilemenu');
 
 });
 
 $('.menu__item').click(function(){
 	$('.burger-menu').toggleClass('active');
-$('.link').toggleClass('mobilemenu');
+$('.navmobile .link').toggleClass('mobilemenu');
 
 });
 
