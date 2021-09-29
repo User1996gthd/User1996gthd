@@ -24,7 +24,7 @@ img{
 	/*padding-left: 125px;*/
 }
 .header{
-	
+	height:100vh;
 	position:relative;
 	padding-left: 70px;
 	
@@ -56,8 +56,12 @@ transition:color .3s;
 	margin: 24px 0;
 }
 header .wrap-content{
+	min-height: 80%;
 	position: fixed;
 	top:104px;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
 }
 .content-top{
 	padding: 0 160px 0 125px;
@@ -87,7 +91,7 @@ border: 3px solid transparent;
 	border: 3px solid #FA8072;
 }
 .navigation{
-	margin-top: 258px;
+	
 }
 .nav-icons{
 	display: flex;
@@ -555,6 +559,7 @@ content: '';
 }
 }
 @media (max-width: 768px) {
+
 	.content-top {
     padding: 0 15px 0 52px;
 }
